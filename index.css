@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Inconsolata");
+
+html, body {
+  width: 100%;
+  font-size: 17px;
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: rgb(240, 240, 240);
+  margin: 0;
+}
+
+body {
+  height: 85%;
+}
+
+a, .contact {
+  color: rgb(130, 60, 60);
+  text-decoration: none;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#writing-links a:hover {
+  font-weight: bold;
+}
+
+#writing-links a {
+  font-size: 1.17em;
+  color: rgb(130, 60, 60);
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.homeheader, .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.titleCard, .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleCard a:hover {
+  font-weight: bold;
+}
+
+.name {
+  font-family: "Roboto Mono";
+  font-size: 30px;
+  margin: 0;
+}
+
+.program {
+  font-size: 18px;
+  margin: 0;
+}
+
+.ul {
+  border-bottom: 2px solid black;
+}
+
+.medialinks {
+  align-items: end;
+}
+
+.space {
+  margin: 12px 0;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.wide {
+  width: 65%;
+  justify-content: space-between;
+}
+
+.personal {
+  max-width: 65%;
+  margin-top: 2rem;
+}
